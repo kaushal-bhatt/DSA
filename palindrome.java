@@ -3,8 +3,7 @@
 public class palindrome {
     
     public static void main(String[] args) {
-        boolean a=returnPalindrome(1363);
-        System.out.println(a);
+        System.out.println("Given number is plaindrome or not:"+returnPalindrome(363));
         
     }
     static boolean returnPalindrome(int number){
