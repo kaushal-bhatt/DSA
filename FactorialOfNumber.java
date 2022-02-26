@@ -10,4 +10,14 @@ public class FactorialOfNumber {
             }
         return result;
     }
+    /**
+     * recusrive approach for same problem , but it
+     *  will take slightly more space to hold the
+     *  previous state result till root
+     */
+//     static int factorialNumber(int number){
+//         if(number==0)
+//         return 1;
+//     return number*factorialNumber(number-1);
+// }
 }
