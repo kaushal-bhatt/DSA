@@ -1,6 +1,6 @@
 class ProductArray {
 	
-	void productArray(int arr[], int n)`
+	void productArray(int arr[], int n)
 	{
 
 		if (n == 1) {
