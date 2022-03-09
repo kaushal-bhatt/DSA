@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 
 public class OddOcurrenceOfAnumber {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class OddOcurrenceOfAnumber {
     }
     static int res=0;
     //magic of xor operator ^ ,learn the properties of these
-    
+
     static int solution(int arr[]){
        for(int i=0;i<arr.length;i++){
            res=res^arr[i];

@@ -1,4 +1,3 @@
-import javax.naming.spi.DirStateFactory.Result;
 
 public class CountSetBits {
     public static void main(String[] args) {
