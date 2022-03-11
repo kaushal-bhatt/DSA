@@ -1,3 +1,5 @@
+package main;
+
 public class SumOfNnumbers
 {
  public static void main(String[] args) {

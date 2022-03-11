@@ -1,4 +1,4 @@
-
+package main;
 
 public class OddOcurrenceOfAnumber {
     public static void main(String[] args) {

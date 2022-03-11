@@ -1,3 +1,5 @@
+package main;
+
 public class FactorialOfNumber {
     
     public static void main(String[] args) {

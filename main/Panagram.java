@@ -1,5 +1,7 @@
+package main;
+
 public class Panagram {
-    private static final String IT_IS_NOT_A_PANAGRAM = "It is not a Panagram";
+    private static final String IT_IS_NOT_A_PANAGRAM = "It is not a main.Panagram";
     private static final String IT_IS_A_PANAGRAM ="it is panagram";
     public static void main(String[] args) {
         if(solve("The quick brown ox jumps over the lazy dog")==true){
