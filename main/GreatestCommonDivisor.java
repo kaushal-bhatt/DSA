@@ -1,9 +1,11 @@
+package main;
+
 public class GreatestCommonDivisor{
     public static void main(String[] args) {
         System.out.println(solution(100,1400));
     }
     /**
-     * GreatestCommonDivisor is 
+     * main.GreatestCommonDivisor is
      * some number which is the heighest
      *  number that divides both numbers
      * @param firstNumber

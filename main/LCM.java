@@ -1,3 +1,5 @@
+package main;
+
 public class LCM {
     public static void main(String[] args) {
         System.out.println(lcmSolution(20,6));
