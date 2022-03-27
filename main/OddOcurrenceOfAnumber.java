@@ -2,7 +2,7 @@ package main;
 
 public class OddOcurrenceOfAnumber {
     public static void main(String[] args) {
-        int arr[]={1,2,1,1,12,2,3,6,2,3,3,4,4,5,5,6,6,6};
+        int arr[]={1,2,3,5,5,6,7,8,9,10,10};
         System.out.print(solution(arr));
     }
     static int res=0;
