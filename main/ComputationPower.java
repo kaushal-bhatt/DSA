@@ -1,3 +1,5 @@
+package main;
+
 public class ComputationPower {
     public static void main(String[] args) {
         System.out.println(compute(4,3));

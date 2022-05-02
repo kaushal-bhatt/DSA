@@ -1,3 +1,5 @@
+package main;
+
 class ProductArray {
 	
 	void productArray(int arr[], int n)
@@ -48,5 +50,3 @@ class ProductArray {
 		pa.productArray(arr, n);
 	}
 }
-
-
