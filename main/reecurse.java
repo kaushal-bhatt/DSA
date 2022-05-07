@@ -1,7 +1,8 @@
-class reecurse{
+package main;
+public class reecurse{
 public static void main(String[] args) {
 
-    int n=9;
+    int n=3;
     System.out.print(recursion(n));
 
 }
