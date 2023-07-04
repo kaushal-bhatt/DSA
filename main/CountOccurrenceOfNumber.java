@@ -21,13 +21,13 @@ public class CountOccurrenceOfNumber {
                 end=mid-1;}else{
                     start=mid+1;
                 }
-                binarySearch(arr,searchElement,start,end,first);
+
             } else if (searchElement<arr[mid]) {
                 end=mid-1;
-                binarySearch(arr,searchElement,start,end,first);
+
             }else{
                 start= mid+1;
-                binarySearch(arr,searchElement,start,end,first);
+
             }
         }
        return result;

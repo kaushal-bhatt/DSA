@@ -15,13 +15,13 @@ public class LastOccurrence {
             if(searchElement==arr[mid]){
                 result=mid;
                 start=mid+1;
-                binarySearch(arr,searchElement,start,end);
+
             } else if (searchElement<arr[mid]) {
                 end=mid-1;
-                binarySearch(arr,searchElement,start,end);
+
             }else{
                 start= mid+1;
-                binarySearch(arr,searchElement,start,end);
+
             }
         }
 
