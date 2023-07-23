@@ -14,6 +14,9 @@ public class FindKthLargestElement {
                 maxHeap.poll();
             }
         }
-        System.out.println(maxHeap.peek());
+        System.out.println(maxHeap);
+        while(!maxHeap.isEmpty()) {
+            System.out.print(maxHeap.poll()+"\t");
+        }
     }
 }
